@@ -26,7 +26,7 @@ export class MainComponent implements OnInit {
     const startAngle = Math.PI / this.titles.length;
     let angle;
     const radius = 110;
-    const offset = window.innerWidth / 2;
+    const offset = window.innerWidth / 2.5;
     if (this.titles.length >= 9) {
       angle = (startAngle / 2) * this.titles.length + 0.2;
     } else if (this.titles.length === 3) {
